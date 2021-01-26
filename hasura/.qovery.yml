@@ -11,4 +11,4 @@ routers:
   routes:
   - application_name: hasura
     paths:
-    - /*
+    - /api/hasura/
