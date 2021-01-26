@@ -1,14 +1,14 @@
 application:
-  name: hasura
+  name: next.js
   project: clovis
   organization: QoveryCommunity
 databases:
 - type: postgresql
-  version: "13"
+  version: "12"
   name: my-postgresql-database
 routers:
 - name: main
   routes:
-  - application_name: hasura
+  - application_name: next.js
     paths:
     - /*
